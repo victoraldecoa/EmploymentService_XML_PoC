@@ -151,14 +151,11 @@ public class EmploymentService {
             
             
             // Adding the GPA to the Applicant Profile using XSLT
-            /*
             TransformerFactory tFactory = TransformerFactory.newInstance();
 
             Source xslSource = new StreamSource("XMLs/GPA_Calc.xsl");
             Transformer transformer = tFactory.newTransformer(xslSource);
             transformer.transform(new StreamSource("XMLs/ApplicantProfile_noGPA.xml"), new StreamResult(new FileOutputStream("XMLs/ApplicantProfile.xml")));
-            */
-            
         } catch (Exception ex) {
             ex.printStackTrace();
         }
