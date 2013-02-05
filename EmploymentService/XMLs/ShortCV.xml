@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:shortCV xmlns:ns2="employmentservice">
+    <fullname>Jonas Ånsgtröm</fullname>
+    <birth>1989-11-19</birth>
+    <address>Kista alléväg, 57C-12</address>
+    <city>Kista</city>
+    <state>Stockholm</state>
+    <languageList>
+        <language name="Brazilian portuguese">
+            <speaking>Fluent</speaking>
+            <understanding>Fluent</understanding>
+            <writing>Fluent</writing>
+            <reading>Fluent</reading>
+        </language>
+        <language name="English">
+            <speaking>Advanced</speaking>
+            <understanding>Advanced</understanding>
+            <writing>Fluent</writing>
+            <reading>Fluent</reading>
+        </language>
+        <language name="Spanish">
+            <speaking>Basic</speaking>
+            <understanding>Basic</understanding>
+            <writing>Basic</writing>
+            <reading>Intermediate</reading>
+        </language>
+        <language name="Swedish">
+            <speaking>None</speaking>
+            <understanding>None</understanding>
+            <writing>Basic</writing>
+            <reading>Basic</reading>
+        </language>
+    </languageList>
+    <competences>
+    	<competence>Java</competence>
+    	<competence>XML</competence>
+    	<competence>Android development</competence>
+    	<competence>Embedded Systems</competence>
+    	<competence>Linux development</competence>
+    </competences>
+</ns2:shortCV>

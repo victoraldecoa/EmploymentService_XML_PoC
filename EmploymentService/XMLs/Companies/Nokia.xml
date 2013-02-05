@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:company xmlns:ns2="employmentservice">
+    <name>Nokia Corporation</name>
+    <yearFounded>1865</yearFounded>
+    <country>Finland</country>
+</ns2:company>

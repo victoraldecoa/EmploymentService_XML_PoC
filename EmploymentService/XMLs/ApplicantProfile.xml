@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applicantProfile>
+    <languages>
+        <language name="Brazilian portuguese">
+            <reading>Fluent</reading>
+            <speaking>Fluent</speaking>
+            <understanding>Fluent</understanding>
+            <writing>Fluent</writing>
+        </language>
+        <language name="English">
+            <reading>Fluent</reading>
+            <speaking>Advanced</speaking>
+            <understanding>Advanced</understanding>
+            <writing>Fluent</writing>
+        </language>
+        <language name="Spanish">
+            <reading>Intermediate</reading>
+            <speaking>Basic</speaking>
+            <understanding>Basic</understanding>
+            <writing>Basic</writing>
+        </language>
+        <language name="Swedish">
+            <reading>Basic</reading>
+            <speaking>None</speaking>
+            <understanding>None</understanding>
+            <writing>Basic</writing>
+        </language>
+    </languages>
+    <competences>
+        <competence>Java</competence>
+        <competence>XML</competence>
+        <competence>Android development</competence>
+        <competence>Embedded Systems</competence>
+        <competence>Linux development</competence>
+    </competences>
+    <address>Kista alléväg, 57C-12</address>
+    <birth>1989-11-19</birth>
+    <city>Kista</city>
+    <name>Jonas Ånsgtröm</name>
+    <number_worked_companies>2</number_worked_companies>
+    <state>Stockholm</state>
+    <gpa>3.5</gpa>
+</applicantProfile>

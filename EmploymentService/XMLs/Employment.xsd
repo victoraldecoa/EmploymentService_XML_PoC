@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="employments">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="employment" minOccurs="0" maxOccurs="unbounded">
+			        <xsd:complexType>
+			            <xsd:sequence>
+                            <xsd:element name="company-name" type="xsd:string"/>
+                            <xsd:element name="date-started" type="xsd:date"/>
+                            <xsd:element name="date-ended" type="xsd:date" minOccurs="0"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

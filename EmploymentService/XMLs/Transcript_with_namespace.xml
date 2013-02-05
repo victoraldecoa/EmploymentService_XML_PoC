@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ald:transcript xmlns:ald="urn:xmlns:victoraldecoa:ald">
+    <ald:name>Jonas Ansgtrom</ald:name>
+    <ald:university>KTH</ald:university>
+    <ald:degree>Master's on Machine Learning</ald:degree>
+    <ald:year>2005</ald:year>
+    <ald:courses>
+        <ald:course>
+            <ald:name>Machine Learning</ald:name>
+            <ald:credits>6</ald:credits>
+            <ald:grade>A</ald:grade>
+        </ald:course>
+        <ald:course>
+            <ald:name>Artificial Intelligence</ald:name>
+            <ald:credits>6</ald:credits>
+            <ald:grade>C</ald:grade>
+        </ald:course>
+        <ald:course>
+            <ald:name>Distributed Artificial Intelligence and Intelligent Agents</ald:name>
+            <ald:credits>7.5</ald:credits>
+            <ald:grade>B</ald:grade>
+        </ald:course>
+        <ald:course>
+            <ald:name>Robotics and Autonomous Systems</ald:name>
+            <ald:credits>9</ald:credits>
+            <ald:grade>B</ald:grade>
+        </ald:course>
+    </ald:courses>
+</ald:transcript>

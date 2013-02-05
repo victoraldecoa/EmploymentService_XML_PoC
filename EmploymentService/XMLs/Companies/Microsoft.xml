@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:company xmlns:ns2="employmentservice">
+    <name>Microsoft Corporation</name>
+    <yearFounded>1975</yearFounded>
+    <country>United States of America</country>
+</ns2:company>

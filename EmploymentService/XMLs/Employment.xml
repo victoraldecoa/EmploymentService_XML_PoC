@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employments  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<employment>
+		<company-name>Telefonaktiebolaget L. M. Ericsson</company-name>
+		<date-started>2008-08-01</date-started>
+		<date-ended>2009-07-31</date-ended>
+	</employment>
+	<employment>
+		<company-name>Microsoft Corporation</company-name>
+		<date-started>2009-08-01</date-started>
+	</employment>
+</employments>

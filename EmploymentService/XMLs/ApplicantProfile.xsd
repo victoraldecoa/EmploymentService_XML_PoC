@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:simpleType name="proeficiency">
+        <xsd:restriction base="xsd:string">
+			<xsd:enumeration value="Fluent"/>
+			<xsd:enumeration value="Advanced"/>
+			<xsd:enumeration value="Intermediate"/>
+			<xsd:enumeration value="Basic"/>
+			<xsd:enumeration value="None"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+    <xsd:element name="ApplicantProfile">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="name" type="xsd:string"/>
+                <xsd:element name="birth" type="xsd:date"/>
+                <xsd:element name="address" type="xsd:string"/>
+                <xsd:element name="city" type="xsd:string"/>
+                <xsd:element name="state" type="xsd:string"/>
+                <xsd:element name="GPA_transcript" type="xsd:float"/>
+                <xsd:element name="number_worked_companies" type="xsd:int"/>
+                <xsd:element name="languages">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="language" minOccurs="0" maxOccurs="unbounded">
+						        <xsd:complexType>
+						        	<xs:attribute name="name"/>
+						            <xsd:sequence>
+                                        <xsd:element name="speaking" type="proeficiency"/>
+                                        <xsd:element name="understanding" type="proeficiency"/>
+                                        <xsd:element name="writing" type="proeficiency"/>
+                                        <xsd:element name="reading" type="proeficiency"/>
+								        <xsd:simpleType name="proeficiency">
+                                            <xsd:restriction base="xs:string">
+												<xsd:enumeration value="Fluent"/>
+												<xsd:enumeration value="Advanced"/>
+												<xsd:enumeration value="Intermediate"/>
+												<xsd:enumeration value="Basic"/>
+										    </xsd:restriction>
+										</xsd:simpleType>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="competences">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="competence" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

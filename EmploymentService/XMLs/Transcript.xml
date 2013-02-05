@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transcript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <name>Jonas Ansgtrom</name>
+    <university>KTH</university>
+    <degree>Master's on Machine Learning</degree>
+    <year>2005</year>
+    <courses>
+        <course>
+            <course-name>Machine Learning</course-name>
+            <credits>6</credits>
+            <grade>A</grade>
+        </course>
+        <course>
+            <course-name>Artificial Intelligence</course-name>
+            <credits>6</credits>
+            <grade>C</grade>
+        </course>
+        <course>
+            <course-name>Distributed Artificial Intelligence and Intelligent Agents</course-name>
+            <credits>7.5</credits>
+            <grade>B</grade>
+        </course>
+        <course>
+            <course-name>Robotics and Autonomous Systems</course-name>
+            <credits>9</credits>
+            <grade>B</grade>
+        </course>
+    </courses>
+</transcript>
